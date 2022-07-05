@@ -1,0 +1,15 @@
+#navbar {
+    position: absolute;
+    width: 43vw;
+    display: flex;
+    justify-content: space-between;
+    left: 52vw ;
+    top: 3vh;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-items:hover {
+    color: yellow;
+}
