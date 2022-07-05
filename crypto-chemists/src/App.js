@@ -20,20 +20,19 @@ function App() {
       </div>
 
 
-      <button type='button' 
-      onMouseEnter ={() => {
-        document.getElementById('arrow-icon').style.color = 'yellow'
-      }}
-      onMouseLeave = {() => {
-        document.getElementById('arrow-icon').style.color = 'white'
-      }}
-      >Take a Tour <ArrowForwardIcon id='arrow-icon' /></button>
+      <button type='button'
+        onMouseEnter={() => {
+          document.getElementById('arrow-icon').style.color = 'yellow'
+        }}
+        onMouseLeave={() => {
+          document.getElementById('arrow-icon').style.color = 'white'
+        }}
+      >Take a Tou <ArrowForwardIcon id='arrow-icon' /></button>
 
-    <div id='img-nft'></div>
+      <div id='img-nft'></div>
 
     </div>
   );
 }
 
 export default App;
- 
